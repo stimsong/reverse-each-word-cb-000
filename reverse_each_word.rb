@@ -11,7 +11,7 @@
 
 ###### Reverse Each Word Lab using .collect #####
 def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
+  sentence.split.collect {|reversed| reversed.reverse}.join(" ")
 end
 
 ## .map(&:reverse!)

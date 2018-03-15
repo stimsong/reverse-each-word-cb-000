@@ -13,5 +13,3 @@
 def reverse_each_word(sentence)
   sentence.split.collect {|reversed| reversed.reverse}.join(" ")
 end
-
-## .map(&:reverse!)

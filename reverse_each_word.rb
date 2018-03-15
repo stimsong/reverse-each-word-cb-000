@@ -12,7 +12,7 @@
 ###### Reverse Each Word Lab using .collect #####
 def reverse_each_word(sentence)
   sentence.collect do |reversed|
-    reversed.reverse
+    "#{sentence}"
   end
   sentence.join(" ")
 end
